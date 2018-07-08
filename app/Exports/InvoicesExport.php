@@ -12,7 +12,7 @@ class InvoicesExport implements FromCollection, WithHeadings
     public function headings(): array{
       return [
         'Id', 'Nama', 'Kelas', 'NIS', 'TTL', 'Alamat', 'Agama', 'No HP Siswa', 'No HP Ortu',
-        'Sosmed', 'Gender', 'Data Lain', 'Prestasi', 'Divisi',
+        'Instagram', 'Line', 'Email', 'Gender', 'Asal SMP', 'Motivasi', 'Divisi', 'created_at', 'updated_at'
       ];
     }
 

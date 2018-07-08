@@ -19,23 +19,17 @@
       <div class="col-12">
         <div class="card">
           <!-- /.card-header -->
-          <div class="card-body" style="overflow-x: scroll;">
+          <div class="card-body">
             <table id="example1" class="table table-bordered table-striped">
               <thead>
               <tr>
                 <th>No</th>
                 <th>Nama</th>
                 <th>Kelas</th>
-                <th>NIS</th>
-                <th>TTL</th>
-                <th>Alamat</th>
-                <th>Agama</th>
-                <th>No HP Siswa</th>
-                <th>No HP Ortu</th>
-                <th>Sosmed</th>
+                <th>Instagram</th>
+                <th>Line</th>
+                <th>Email</th>
                 <th>Gender</th>
-                <th>Data Lain</th>
-                <th>Prestasi</th>
                 <th>Divisi</th>
               </tr>
               </thead>
@@ -46,16 +40,10 @@
                   <td><?= $i ?></td>
                   <td><a href="{{ $routeLocation . "/" . $siswa->IdAnggota }}">{{ $siswa->Nama }}</a></td>
                   <td>{{ $siswa->Kelas }}</td>
-                  <td>{{ $siswa->NIS }}</td>
-                  <td>{{ $siswa->TTL }}</td>
-                  <td>{{ $siswa->Alamat }}</td>
-                  <td>{{ $siswa->Agama }}</td>
-                  <td>{{ $siswa->NoHPSiswa }}</td>
-                  <td>{{ $siswa->NoHPOrtu }}</td>
-                  <td>{{ $siswa->Sosmed }}</td>
+                  <td>{{ $siswa->Instagram }}</td>
+                  <td>{{ $siswa->Line }}</td>
+                  <td>{{ $siswa->Email }}</td>
                   <td>{{ $siswa->Gender }}</td>
-                  <td>{{ $siswa->DataLain }}</td>
-                  <td>{{ $siswa->Prestasi }}</td>
                   <td>{{ $siswa->Divisi }}</td>
                 </tr>
                 <?php $i++; ?>
@@ -66,16 +54,10 @@
                 <th>No</th>
                 <th>Nama</th>
                 <th>Kelas</th>
-                <th>NIS</th>
-                <th>TTL</th>
-                <th>Alamat</th>
-                <th>Agama</th>
-                <th>No HP Siswa</th>
-                <th>No HP Ortu</th>
-                <th>Sosmed</th>
+                <th>Instagram</th>
+                <th>Line</th>
+                <th>Email</th>
                 <th>Gender</th>
-                <th>Data Lain</th>
-                <th>Prestasi</th>
                 <th>Divisi</th>
               </tr>
               </tfoot>

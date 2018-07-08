@@ -6,31 +6,42 @@ use App\dataPendaftar;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
+use Jenssegers\Agent\Agent;
 
 class inputDataSiswa extends Controller
 {
 
   public function create()
   {
-      return view('welcome');
+
+    $agent = new Agent;
+
+    if( $agent->isPhone() || $agent->isTablet() ) {
+      return view('index_m');
+    }else {
+      return view('index_d');
+    }
+
   }
 
   public function store(Request $request)
   {
     dataPendaftar::create([
       'Nama' => $request->Nama,
-      'Kelas' => $request->Kelas,
+      'Kelas' => $request->jurusan . " " . $request->rombel,
       'NIS' => $request->NIS,
-      'TTL' => $request->TTL,
+      'TTL' => $request->TglLahir,
       'Alamat' => $request->Alamat,
-      'Agama' => 1,
+      'Agama' => $request->Agama,
       'NoHPSiswa' => $request->NoHPSiswa,
       'NoHPOrtu' => $request->NoHPOrtu,
-      'Sosmed' => $request->Sosmed,
-      'Gender' => 1,
-      'DataLain' => $request->DataLain,
-      'Prestasi' => $request->Prestasi,
-      'Divisi' => $request->Divisi
+      'Instagram' => $request->Instagram,
+      'Line' => $request->Line,
+      'Email' => $request->Email,
+      'Gender' => $request->Gender,
+      'AsalSMP' => $request->Asal,
+      'Divisi' => $request->Divisi,
+      'Motivasi' => $request->Motivasi
     ]);
 
     return redirect('/');

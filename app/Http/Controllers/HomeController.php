@@ -65,4 +65,34 @@ class HomeController extends Controller
       return view('subFolder.dataPendaftarSingle', ['siswa' => $siswa, 'routeLocation'=> $routeLocation]);
     }
 
+    public function dataPendaftarDelete(Request $request, $id)
+    {
+      $dataSiswa = dataPendaftar::where('IdAnggota', $id);
+      $dataSiswa->delete();
+      return redirect(route('Data Pendaftar'));
+    }
+
+    public function dataPendaftarUpdate(Request $request, $id)
+    {
+      $dataSiswa = dataPendaftar::where('IdAnggota', $id);
+      $dataSiswa->update([
+        'Nama' => $request->NamaUpdate,
+        'Kelas' => $request->KelasUpdate,
+        'NIS' => $request->NISUpdate,
+        'TTL' => $request->TanggalLahirUpdate,
+        'Alamat' => $request->AlamatUpdate,
+        'Agama' => $request->AgamaUpdate,
+        'NoHPSiswa' => $request->NoHPSiswaUpdate,
+        'NoHPOrtu' => $request->NoHPOrtuUpdate,
+        'Instagram' => $request->InstagramUpdate,
+        'Line' => $request->LineUpdate,
+        'Email' => $request->EmailUpdate,
+        'Gender' => $request->GenderUpdate,
+        'AsalSMP' => $request->AsalUpdate,
+        'Divisi' => $request->DivisiUpdate,
+        'Motivasi' => $request->MotivasiUpdate
+      ]);
+      return redirect(route('Data Siswa', $id));
+    }
+
 }

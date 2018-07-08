@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'inputDataSiswa@create');
+Route::post('/', 'inputDataSiswa@store');
 
 Auth::routes();
 
@@ -21,6 +22,8 @@ Route::get('/dashboard', 'HomeController@dashboard')->name('Dashboard');
 Route::get('/dashboard/Data Pendaftar', 'HomeController@dataPendaftar')->name('Data Pendaftar');
 // Route data Siswa
 Route::get('/dashboard/Data Pendaftar/{id}', 'HomeController@dataPendaftarSingle')->name('Data Siswa');
+Route::delete('/dashboard/Data Pendaftar/{id}', 'HomeController@dataPendaftarDelete')->name('Hapus Data Siswa');
+Route::put('/dashboard/Data Pendaftar/{id}', 'HomeController@dataPendaftarUpdate')->name('Update Data Siswa');  
 // Route Download data Siswa
 Route::get('/export', 'HomeController@exportDataPendaftar')->name('Export Data Pendaftar');
 // Route admin

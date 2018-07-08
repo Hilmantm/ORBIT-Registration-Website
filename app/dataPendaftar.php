@@ -12,7 +12,7 @@ class dataPendaftar extends Model
 
     // Whitelist
     protected $fillable = ['Nama', 'Kelas', 'NIS', 'TTL', 'Alamat', 'Agama',
-    'NoHPSiswa', 'NoHPOrtu', 'Sosmed', 'Gender', 'DataLain', 'Prestasi', 'Divisi'];
+    'NoHPSiswa', 'NoHPOrtu', 'Instagram', 'Line', 'Email', 'AsalSMP', 'Gender', 'Divisi', 'Motivasi'];
 
     // blacklist
     protected $guarded = ['IdAnggota', 'created_at', 'updated_at'];

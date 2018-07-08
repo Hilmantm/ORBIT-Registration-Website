@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="9.2286mm" height="9.2286mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 158 158"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#F8090F}
+    .fil2 {fill:white}
+    .fil1 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_719527200">
+   <circle class="fil0" cx="79" cy="79" r="79"/>
+   <path class="fil1" d="M55 45l48 0c3,0 5,1 7,3 2,2 3,5 3,7l0 48c0,3 -1,5 -3,7 -2,2 -4,3 -7,3l-48 0c-2,0 -5,-1 -7,-3 -2,-2 -3,-4 -3,-7l0 -48c0,-2 1,-5 3,-7 2,-2 5,-3 7,-3zm48 5l-48 0c-1,0 -2,1 -3,2 -1,1 -2,2 -2,3l0 48c0,1 1,3 2,4 1,1 2,2 3,2l48 0c1,0 3,-1 4,-2 1,-1 2,-3 2,-4l0 -48c0,-1 -1,-2 -2,-3 -1,-1 -3,-2 -4,-2z"/>
+   <path class="fil1" d="M82 48c0,1 -1,2 -3,2 -1,0 -2,-1 -2,-2l0 -16c0,-2 1,-3 2,-3 2,0 3,1 3,3l0 16z"/>
+   <path class="fil1" d="M77 111c0,-1 1,-2 2,-2 2,0 3,1 3,2l0 8c0,1 -1,2 -3,2 -1,0 -2,-1 -2,-2l0 -8z"/>
+   <path class="fil1" d="M111 82c-1,0 -2,-1 -2,-3 0,-1 1,-2 2,-2l16 0c1,0 2,1 2,2 0,2 -1,3 -2,3l-16 0z"/>
+   <path class="fil1" d="M48 77c1,0 2,1 2,2 0,2 -1,3 -2,3l-16 0c-2,0 -3,-1 -3,-3 0,-1 1,-2 3,-2l16 0z"/>
+   <path class="fil1" d="M48 61c1,0 2,1 2,2 0,2 -1,3 -2,3l-8 0c-2,0 -3,-1 -3,-3 0,-1 1,-2 3,-2l8 0z"/>
+   <path class="fil1" d="M111 66c-1,0 -2,-1 -2,-3 0,-1 1,-2 2,-2l16 0c1,0 2,1 2,2 0,2 -1,3 -2,3l-16 0z"/>
+   <path class="fil1" d="M48 93c1,0 2,1 2,2 0,1 -1,2 -2,2l-16 0c-2,0 -3,-1 -3,-2 0,-1 1,-2 3,-2l16 0z"/>
+   <path class="fil1" d="M111 97c-1,0 -2,-1 -2,-2 0,-2 1,-3 2,-3l8 0c1,0 2,1 2,3 0,1 -1,2 -2,2l-8 0z"/>
+   <path class="fil1" d="M97 48c0,1 -1,2 -2,2 -1,0 -2,-1 -2,-2l0 -16c0,-2 1,-3 2,-3 1,0 2,1 2,3l0 16z"/>
+   <path class="fil1" d="M93 111c0,-1 1,-2 2,-2 1,0 2,1 2,2l0 16c0,1 -1,2 -2,2 -1,0 -2,-1 -2,-2l0 -16z"/>
+   <path class="fil1" d="M61 111c0,-1 1,-2 2,-2 2,0 3,1 3,2l0 16c0,1 -1,2 -3,2 -1,0 -2,-1 -2,-2l0 -16z"/>
+   <path class="fil1" d="M66 48c0,1 -1,2 -3,2 -1,0 -2,-1 -2,-2l0 -8c0,-2 1,-3 2,-3 2,0 3,1 3,3l0 8z"/>
+   <path class="fil2" d="M66 63l26 0c2,0 3,2 3,3l0 26c0,2 -1,3 -3,3l-26 0c-1,0 -3,-1 -3,-3l0 -26c0,-1 2,-3 3,-3z"/>
+  </g>
+ </g>
+</svg>
