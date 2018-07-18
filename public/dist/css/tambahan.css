@@ -1,0 +1,26 @@
+.about-siswa {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+ul#float-element {
+  list-style: none;
+}
+
+li.float-element {
+  float: left;
+}
+
+i.sosmed-edit {
+  vertical-align: middle;
+  font-size: 40px;
+}
+
+.alertBox {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999999999;
+}
